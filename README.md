@@ -1,6 +1,6 @@
 # youtube_downloader_GUI
 
-#requirements
+# requirements
 
 pip install pytube, pysimplegui
 

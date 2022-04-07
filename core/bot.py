@@ -26,7 +26,7 @@ def download_video(link):
             sg.theme('DarkBrown1')
             
             layout_column = [
-                [sg.Image('images/warning.png')],   
+                [sg.Image('core/images/warning.png')],   
                 [sg.Text('Youtube Downloader Warning:', font=('verdana', 15), size=(24,0))],
                 [sg.Text('Insert Youtube Link First', font=('verdana', 15))]
             ]   
@@ -43,7 +43,7 @@ def download_video(link):
             sg.theme('DarkBrown4')
 
             layout_column = [
-                [sg.Image('images/error.png')],
+                [sg.Image('core/images/error.png')],
                 [sg.Text('Youtube Downloader Error:', font=('verdana', 15), size=(21, 0))],
                 [sg.Text('Invalid Youtube Link', font=('verdana', 15))]
             ]   
@@ -67,7 +67,7 @@ def download_audio(link):
             sg.theme('DarkBrown1')
             
             layout_column = [
-                [sg.Image('images/warning.png')],   
+                [sg.Image('core/images/warning.png')],   
                 [sg.Text('Youtube Downloader Warning:', font=('verdana', 15), size=(24,0))],
                 [sg.Text('Insert Youtube Link First', font=('verdana', 15))]
             ]   
@@ -84,7 +84,7 @@ def download_audio(link):
             sg.theme('DarkBrown4')
 
             layout_column = [
-                [sg.Image('images/error.png')],
+                [sg.Image('core/images/error.png')],
                 [sg.Text('Youtube Downloader Error:', font=('verdana', 15), size=(21, 0))],
                 [sg.Text('Invalid Youtube Link', font=('verdana', 15))]
             ]   
@@ -139,7 +139,7 @@ def __main__():
     sg.theme('DarkRed1')
 
     layout_column = [
-        [sg.Image('images/icone.png')],
+        [sg.Image('core/images/icone.png')],
         [sg.Text('Url:'), sg.Input(key='url', size=(48,3))],
         [sg.Button('Download Video', size=(50,1))],
         [sg.Button('Download Audio', size=(50,1))],
